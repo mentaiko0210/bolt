@@ -4,6 +4,7 @@
   width: 100%;
   position: relative;
   margin: 0 auto;
+  font-family: 'Lato';
 }
 
 .bolt_header, .bolt_footer  {
@@ -72,6 +73,7 @@
 
 .bolt_section_right h1 {
   font-size: 24px;
+  font-family: 'Raleway';
 }
 
 .bolt_section_right p {
