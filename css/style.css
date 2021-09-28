@@ -5,6 +5,8 @@
   position: relative;
   margin: 0 auto;
   font-family: 'Lato';
+  font-weight: lighter;
+  color: #333;
 }
 
 .bolt_header, .bolt_footer  {
@@ -36,17 +38,23 @@
   text-decoration: none;
 }
 
-.bolt_main {
+.header_button:hover {
+  color: #333;
+  transition: 0.3;
+}
+
+.main_inner {
   width: 100%;
-  padding: 250px 0;
+  padding: 320px 0 250px;
   text-align: center;
   background-color: #f2f2f2;
 }
 
-.bolt_main h1 {
+.main_inner h1 {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
+  font-family: 'Raleway';
 }
 
 .bolt_main p {
@@ -67,20 +75,19 @@
   justify-content: space-around;
 }
 
-.bolt_section_right {
-  color: white;
-}
-
 .bolt_section_right h1 {
   font-size: 24px;
   font-family: 'Raleway';
+  font-weight: lighter;
+  color: white;
 }
 
 .bolt_section_right p {
   margin-top: 35px;
-  width: 750px;
+  width: 650px;
   font-size: 20px;
   word-break: keep-all;
+  color: white;
 }
 
 .bolt_article {
@@ -99,6 +106,8 @@
 
 .bolt_article h1 {
   font-size: 24px;
+  font-family: 'Raleway';
+  font-weight: lighter;
 }
 
 .article_grid {
@@ -109,23 +118,39 @@
   grid-column-gap: 100px;
 }
 
+.article_image {
+  opacity: 0.7 ;
+}
+
+.article_image:hover {
+  opacity: 1;
+}
+
 .article_content_under {
   margin-top: 90px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .article_content_under p {
-  width: 530px;
+  width: 560px;
+  font-size: 20px;
 }
 
 .article_button {
   padding: 14px 20px;
   font-size: 12px;
+  vertical-align: middle;
   color: white;
   background-color: #74cfae;
   margin-left: 90px;
   text-decoration: none;
+}
+
+.article_button:hover {
+    color: #333;
+    transition: 0.3;
 }
 
 .bolt_figure {
@@ -140,6 +165,10 @@
 
 .figure_inner p, .figure_inner h1{
   color: white;
+}
+
+.figure_inner h1{
+  font-size: 24px;
 }
 
 .figure_content {
