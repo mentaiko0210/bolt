@@ -177,8 +177,11 @@
   font-size: 24px;
 }
 
-.figure_content {
+.figure_wrapper {
   margin-top: 50px;
+}
+
+.figure_content {
   display: flex;
 }
 
@@ -206,16 +209,24 @@
 }
 
 .nav_inner  {
-  padding: 200px 0 200px;  
+  padding: 200px 0;  
+}
+
+.nav_button {
   display: flex;
   justify-content: center;
 }
 
 .nav_hover {
   width: 185px;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
   transition: 0.3s;
+}
+
+.nav_icon {
+  display: block;
+  height: 100%;
 }
 
 .nav_hover:hover {
