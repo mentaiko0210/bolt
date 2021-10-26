@@ -9,10 +9,6 @@
   color: #333;
 }
 
-.bolt_header, .bolt_footer  {
-  width: 100%;
-}
-
 .bolt_inner {
   width: 1100px;
   margin: 0 auto;
@@ -20,6 +16,7 @@
 
 .bolt_header  {
   position: fixed;
+  width: 100%;
   z-index: 1000;
   padding: 15px 0;
   background-color: white;
@@ -46,13 +43,12 @@
 
 .bolt_main {
   padding-top: 70px;
+  background-color: #f2f2f2;
 }
 
 .main_inner {
-  width: 100%;
   padding: 250px 0;
   text-align: center;
-  background-color: #f2f2f2;
 }
 
 .main_inner h1 {
@@ -69,8 +65,7 @@
 }
 
 .bolt_section {
-  width: 100%;
-  padding: 50px 0 0 0;
+  padding-top: 50px;
   background-color: #74cfae;
   }
 
@@ -80,7 +75,7 @@
   justify-content: space-around;
 }
 
-.bolt_section_right h1 {
+.bolt_section_right h2 {
   font-size: 24px;
   font-family: 'Raleway';
   font-weight: lighter;
@@ -96,7 +91,6 @@
 }
 
 .bolt_article {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
@@ -105,11 +99,11 @@
   padding: 60px 0 70px;
 }
 
-.bolt_article h1, .bolt_article p {
+.bolt_article h2, .bolt_article p {
   color: #333;
 }
 
-.bolt_article h1 {
+.bolt_article h2 {
   font-size: 24px;
   font-family: 'Raleway';
   font-weight: lighter;
@@ -160,7 +154,6 @@
 }
 
 .bolt_figure {
-  width: 100%;
   background-color: #4e4e4e;
 }
 
@@ -169,11 +162,11 @@
   text-align: center;
 }
 
-.figure_inner p, .figure_inner h1{
+.figure_inner p, .figure_inner h2 {
   color: white;
 }
 
-.figure_inner h1{
+.figure_inner h2 {
   font-size: 24px;
 }
 
@@ -183,28 +176,23 @@
 
 .figure_content {
   display: flex;
+  justify-content: center;
 }
 
 .figure_content_item {
   margin-left: 180px;
-  text-align: center;
 }
 
 .figure_content_item:first-child {
-  margin-left: auto;
+  margin-left: 0px;
 }
 
-.figure_content_item:last-child {
-  margin-right: auto;
-}
-
-.figure_content_item p  {
+.figure_content_item p {
   margin-top: 10px;
   font-size: 16px;
 }
 
 .bolt_nav {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
@@ -219,7 +207,6 @@
 
 .nav_hover {
   width: 185px;
-  padding: 20px;
   text-align: center;
   transition: 0.3s;
 }
@@ -227,6 +214,7 @@
 .nav_icon {
   display: block;
   height: 100%;
+  padding: 20px 0;
 }
 
 .nav_hover:hover {
@@ -237,13 +225,12 @@
   color:  #74cfae;
 }
 
-.bolt_footer  {
-  width: 100%;
+.bolt_footer {
   background-color: #74cfae;
 }
 
 .footer_inner {
-  padding: 20px 0 25px 0;
+  padding: 20px 0 25px;
   text-align: right;
 }
 
