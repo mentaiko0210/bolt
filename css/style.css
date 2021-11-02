@@ -118,6 +118,7 @@
 }
 
 .article_image {
+  display: block;
   opacity: 0.7;
   transition: 0.3s;
 }
@@ -207,13 +208,13 @@
 
 .nav_hover {
   width: 185px;
+  
   text-align: center;
   transition: 0.3s;
 }
 
 .nav_icon {
   display: block;
-  height: 100%;
   padding: 20px 0;
 }
 
